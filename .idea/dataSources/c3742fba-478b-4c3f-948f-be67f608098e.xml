@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tp5@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="tp5">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="china"/>
+    <schema id="4" parent="1" name="company"/>
+    <schema id="5" parent="1" name="examination"/>
+    <schema id="6" parent="1" name="guestbook_system"/>
+    <schema id="7" parent="1" name="image"/>
+    <schema id="8" parent="1" name="information_schema"/>
+    <schema id="9" parent="1" name="login"/>
+    <schema id="10" parent="1" name="money"/>
+    <schema id="11" parent="1" name="myproject"/>
+    <schema id="12" parent="1" name="myshop"/>
+    <schema id="13" parent="1" name="mysql"/>
+    <schema id="14" parent="1" name="mysqlpuls"/>
+    <schema id="15" parent="1" name="news"/>
+    <schema id="16" parent="1" name="news_system"/>
+    <schema id="17" parent="1" name="performance_schema"/>
+    <schema id="18" parent="1" name="person"/>
+    <schema id="19" parent="1" name="phpcmsv9"/>
+    <schema id="20" parent="1" name="refund"/>
+    <schema id="21" parent="1" name="test"/>
+    <schema id="22" parent="1" name="user"/>
+    <schema id="23" parent="1" name="yiishop"/>
+    <schema id="24" parent="1" name="yiizuoye"/>
+    <table id="25" parent="2" name="admin"/>
+    <column id="26" parent="25" name="id">
+      <Position>1</Position>
+      <Comment>id值</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="27" parent="25" name="username">
+      <Position>2</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="25" name="password">
+      <Position>3</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="25" name="create_time">
+      <Position>4</Position>
+      <Comment>注册时间</Comment>
+      <DataType>int(255)|0</DataType>
+    </column>
+    <column id="30" parent="25" name="last_login_time">
+      <Position>5</Position>
+      <Comment>最后登录时间</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="31" parent="25" name="last_login_ip">
+      <Position>6</Position>
+      <Comment>最后登录ip</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="32" parent="25" name="update_time">
+      <Position>7</Position>
+      <Comment>修改时间</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="33" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
